@@ -9,6 +9,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 set(srv_files
 	srv/SparkRegistration.srv
+	srv/SparkUpdate.srv
 )
 rosidl_generate_interfaces(${PROJECT_NAME}
 	${srv_files}
